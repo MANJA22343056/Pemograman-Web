@@ -1,0 +1,35 @@
+
+body{
+	background-image:url('../gambar/bg.jpg');
+	background-size: cover;
+	width: 1080px;
+	margin: auto;
+
+}
+.enter{
+	clear: both;
+}
+
+.input,.tampil,.perbaharui,.hapus,.petunjuk{
+	width: 1080px;
+	height: 900px;
+	background-color: darkslategray;
+}
+table{
+	font: times;
+	font-size: 20px;
+
+}
+
+td,th{
+	border: 3px solid ;
+	padding:10px;
+
+
+}
+
+.petunjuk{
+	font-size: 25px;
+	padding-left: 5px;
+}
+

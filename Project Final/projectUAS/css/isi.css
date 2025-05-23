@@ -1,0 +1,16 @@
+#isi{
+	background-color: darkslategray;
+	width: 1080px;
+	height: 600px;
+	margin: auto;
+
+}
+
+body{
+	background-image:url('../gambar/bg.jpg');
+	background-size: cover;
+}
+
+.info{
+	font-size: 25px;
+}

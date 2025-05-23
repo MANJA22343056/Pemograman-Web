@@ -1,0 +1,21 @@
+#menu{
+	width: 1080px;
+	height: 50px;
+	background-color: black;
+	font: times;
+	margin: auto;
+	text-align: center;
+	padding-top: 20px;
+}
+
+#menu nav a {
+	text-decoration: none;
+	font-size: 24px;
+	color: white;
+}
+
+#menu nav a:hover{
+	background-color: darkblue;
+	color: red;
+	padding: 5px 10px;
+}
