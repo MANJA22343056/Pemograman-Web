@@ -1,0 +1,9 @@
+#footer {
+    text-align: center;
+    background-color: rgb(240, 148, 0);
+    height: 40px;
+
+    border-radius: 15px ;
+    border: 2px solid black;
+    padding-top: 20px;
+  }
