@@ -1,0 +1,27 @@
+<html>
+<head>
+<style type="text/css">
+img.x1{
+position:absolute;
+left:0;
+top:0;
+z-index:1;
+}
+img.x2{
+position:absolute;
+left:0;
+top:100;
+z-index:-1;
+}
+</style>
+</head>
+<body>
+<p><b> Catatn :</b> Netscape 4 tidak mendukung properti "z-index".</p>
+<h1> Sepertinya heading ini terhalang oleh gambar</h1>
+<img class="x1" src=" langit.jpg" width="100" height="80">
+<p> Nilai defaukt z-index adalah 0. Z-index 1 memiliki prioritas lebih tinggi,sedangkan Z-indexs -1 memiliki priritas lebih rendah.</p>
+<p></p>
+<img class="x2" src =" orang.gif " width="100" height ="80">
+<p> Sekarang saudara bisa membandingkan dengan tampilan dibagian bawah ini. Apakah masih terhalang gambar ></p>
+</body>
+</html>

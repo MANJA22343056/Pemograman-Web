@@ -1,0 +1,131 @@
+body {
+	width: 1080px;
+	margin: auto ;
+	padding: 0;
+	background-color:white;
+}
+
+#kepala{
+	background-color: darkslategrey;
+	height: 200px;
+	padding: 0px;
+	text-align: center;
+	display: flex;
+  	justify-content: center;
+
+}
+#kepala img {
+	height: 90px;
+	width: 90px;
+	margin-left: 25px;	
+	margin-top:35px;	
+	display: block;
+	
+
+}
+#kepala h1{
+	position: absolute;
+	text-align: center;
+	margin:0;
+	padding :0;
+	top: 50px;
+	left: 70px;
+	width: 100%;
+	font-size: 50px;
+}
+#menu {
+	background-color: black;
+	height: 40px;
+	width: 1080px;
+	color : white ;
+	text-align: center;
+	display: flex;
+  	justify-content: center;
+
+	
+}
+#menu nav{
+	font-size: 24px;
+
+}
+#isi{
+	height: 800px;
+	background-color:white;
+	column-count: 3;
+	display: flex;
+	text-align:center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: stretch;
+
+}
+#isi .badan{
+	background-color:lightslategray ;
+	height: 500px;
+	width: 730px;
+	padding: 0px;
+	max-width: 100%;
+	max-height: 80vh;
+	overflow: auto;
+	display: block;
+		
+}
+#isi .badan .iframe {
+	max-width: 100%;
+  	max-height: 100%;
+  	display: block;
+
+}
+
+#isi .samping{
+	min-width: 30%;
+	height: 500px;
+	background-color: brown;
+
+}
+
+#isi .kaki_atas_satu {
+  background-color: chocolate;
+  height: 250px;
+  flex-basis: 25%;
+  min-width: 25%;
+  padding: 0px;
+}
+
+#isi .kaki_atas_dua{
+	background-color:orange;
+	height: 250px;
+	flex-basis: 25%;
+	min-width: 25%;
+	padding: 0px;
+	
+}
+
+#isi .kaki_atas_tiga{
+	background-color:yellow ;
+	height: 250px;
+	flex-basis: 25%;
+	min-width: 25%;
+	padding: 0px;
+
+}
+
+#isi .kaki_atas_empat{
+	background-color: greenyellow ;
+	height: 250px;
+	flex-basis: 25%;
+	min-width: 25%;
+	padding: 0px;
+
+}
+#kaki {
+	background-color: darkslategrey;
+	height: 150px;
+	padding: 25px;
+	font-size: 20px;
+	
+
+}
+
+
